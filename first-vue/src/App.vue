@@ -14,7 +14,13 @@
     </div>
 
     <div>
-      <div>--------------Class and style bind-------------------</div>
+      <div>-------------Condition v-if-------------------</div>
+      <div>
+        <firstcondition></firstcondition>
+        <secondcondition></secondcondition>
+        <thirdcondition></thirdcondition>
+        <fourthcondition></fourthcondition>
+      </div>
     </div>
 
 
@@ -27,6 +33,10 @@ import watchdemocomponent from './components/watchdemocomponent.vue'
 import bindstylecomponent from './components/bindstylecomponent.vue'
 import singlecomponent from './components/singlecomponent.vue'
 import innerstylebind from './components/innerstylebind.vue'
+import firstcondition from './components/condition/firstcondition.vue'
+import secondcondition from './components/condition/secondcondition.vue'
+import thirdcondition from './components/condition/thirdcondition.vue'
+import fourthcondition from './components/condition/fourthcondition.vue'
 export default {
   data () {
     return {
@@ -35,7 +45,7 @@ export default {
         activeClass: 'active',
         errorClass: 'danger-show'
       },
-      separator:'separator'
+      separator:'separator',
     }
   },
   components: {
@@ -43,7 +53,12 @@ export default {
     watchdemocomponent,
     bindstylecomponent,
     singlecomponent,
-    innerstylebind
+    innerstylebind,
+    firstcondition,
+    secondcondition,
+    thirdcondition,
+    fourthcondition
+
   }
 }
 </script>
