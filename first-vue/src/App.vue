@@ -23,6 +23,18 @@
       </div>
     </div>
 
+    <div>
+      <div>------------Table v-for-------------------</div>
+      <div>
+        <forDemo1></forDemo1>
+        <forDemo2></forDemo2>
+        <forDemo3></forDemo3>
+        <forDemo4></forDemo4>
+        <forDemo5></forDemo5>
+        <forDemo6></forDemo6>
+      </div>
+    </div>
+
 
   </div>
 </template>
@@ -37,6 +49,13 @@ import firstcondition from './components/condition/firstcondition.vue'
 import secondcondition from './components/condition/secondcondition.vue'
 import thirdcondition from './components/condition/thirdcondition.vue'
 import fourthcondition from './components/condition/fourthcondition.vue'
+import forDemo1 from './components/table/demo1.vue'
+import forDemo2 from './components/table/demo2.vue'
+import forDemo3 from './components/table/demo3.vue'
+import forDemo4 from './components/table/demo4.vue'
+import forDemo5 from './components/table/demo5.vue'
+import forDemo6 from './components/table/demo6.vue'
+
 export default {
   data () {
     return {
@@ -57,7 +76,13 @@ export default {
     firstcondition,
     secondcondition,
     thirdcondition,
-    fourthcondition
+    fourthcondition,
+    forDemo1,
+    forDemo2,
+    forDemo3,
+    forDemo4,
+    forDemo5,
+    forDemo6
 
   }
 }
